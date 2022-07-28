@@ -43,7 +43,6 @@ Partial Class Form1
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton10 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton14 = New System.Windows.Forms.ToolStripButton()
         Me.MenuStrip1.SuspendLayout()
@@ -176,10 +175,10 @@ Partial Class Form1
         '
         Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.Right
         Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(40, 40)
-        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton13, Me.ToolStripSeparator3, Me.ToolStripSeparator4, Me.ToolStripButton2, Me.ToolStripButton9, Me.ToolStripButton10, Me.ToolStripButton12, Me.ToolStripButton11, Me.ToolStripButton14})
-        Me.ToolStrip2.Location = New System.Drawing.Point(1106, 28)
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton13, Me.ToolStripSeparator3, Me.ToolStripSeparator4, Me.ToolStripButton2, Me.ToolStripButton9, Me.ToolStripButton10, Me.ToolStripButton11, Me.ToolStripButton14})
+        Me.ToolStrip2.Location = New System.Drawing.Point(1037, 28)
         Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(210, 601)
+        Me.ToolStrip2.Size = New System.Drawing.Size(279, 601)
         Me.ToolStrip2.TabIndex = 4
         Me.ToolStrip2.Text = "ToolStrip2"
         '
@@ -189,18 +188,18 @@ Partial Class Form1
         Me.ToolStripButton13.Image = Global.Car_Accessory_Management_Systm.My.Resources.Resources.report__1__copy
         Me.ToolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton13.Name = "ToolStripButton13"
-        Me.ToolStripButton13.Size = New System.Drawing.Size(207, 44)
+        Me.ToolStripButton13.Size = New System.Drawing.Size(276, 44)
         Me.ToolStripButton13.Text = "ToolStripButton13"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(207, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(276, 6)
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(207, 6)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(276, 6)
         '
         'ToolStripButton2
         '
@@ -209,7 +208,7 @@ Partial Class Form1
         Me.ToolStripButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(207, 44)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(276, 44)
         Me.ToolStripButton2.Text = "Payment Report"
         '
         'ToolStripButton9
@@ -219,7 +218,7 @@ Partial Class Form1
         Me.ToolStripButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton9.Name = "ToolStripButton9"
-        Me.ToolStripButton9.Size = New System.Drawing.Size(207, 44)
+        Me.ToolStripButton9.Size = New System.Drawing.Size(276, 44)
         Me.ToolStripButton9.Text = "Stock Report"
         '
         'ToolStripButton10
@@ -229,18 +228,8 @@ Partial Class Form1
         Me.ToolStripButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton10.Name = "ToolStripButton10"
-        Me.ToolStripButton10.Size = New System.Drawing.Size(207, 44)
-        Me.ToolStripButton10.Text = "Profit Report"
-        '
-        'ToolStripButton12
-        '
-        Me.ToolStripButton12.Font = New System.Drawing.Font("Cambria", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripButton12.Image = Global.Car_Accessory_Management_Systm.My.Resources.Resources.report
-        Me.ToolStripButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton12.Name = "ToolStripButton12"
-        Me.ToolStripButton12.Size = New System.Drawing.Size(207, 44)
-        Me.ToolStripButton12.Text = "Maintance Report"
+        Me.ToolStripButton10.Size = New System.Drawing.Size(276, 44)
+        Me.ToolStripButton10.Text = "Profit / Maintance Report"
         '
         'ToolStripButton11
         '
@@ -249,15 +238,17 @@ Partial Class Form1
         Me.ToolStripButton11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton11.Name = "ToolStripButton11"
-        Me.ToolStripButton11.Size = New System.Drawing.Size(207, 44)
+        Me.ToolStripButton11.Size = New System.Drawing.Size(276, 44)
         Me.ToolStripButton11.Text = "Payroll Report"
         '
         'ToolStripButton14
         '
-        Me.ToolStripButton14.Image = CType(resources.GetObject("ToolStripButton14.Image"), System.Drawing.Image)
+        Me.ToolStripButton14.Font = New System.Drawing.Font("Cambria", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton14.Image = Global.Car_Accessory_Management_Systm.My.Resources.Resources.Purchase
+        Me.ToolStripButton14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton14.Name = "ToolStripButton14"
-        Me.ToolStripButton14.Size = New System.Drawing.Size(207, 44)
+        Me.ToolStripButton14.Size = New System.Drawing.Size(276, 44)
         Me.ToolStripButton14.Text = "Purchase Report"
         '
         'Form1
@@ -312,7 +303,6 @@ Partial Class Form1
     Friend WithEvents ToolStripButton9 As ToolStripButton
     Friend WithEvents ToolStripButton10 As ToolStripButton
     Friend WithEvents ToolStripButton11 As ToolStripButton
-    Friend WithEvents ToolStripButton12 As ToolStripButton
     Friend WithEvents ToolStripButton13 As ToolStripButton
     Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
     Friend WithEvents ToolStripSeparator4 As ToolStripSeparator
