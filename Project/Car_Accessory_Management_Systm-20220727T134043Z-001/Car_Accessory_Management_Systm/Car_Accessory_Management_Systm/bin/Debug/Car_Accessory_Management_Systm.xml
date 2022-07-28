@@ -47,6 +47,11 @@ Car_Accessory_Management_Systm
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.bill">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.car">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -58,6 +63,11 @@ Car_Accessory_Management_Systm
 </summary>
 </member>
 <member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.davidcohen_MOQGh6lZ6D0_unsplash__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.eric_niklas_DmZuhClBhZ0_unsplash">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -82,12 +92,57 @@ Car_Accessory_Management_Systm
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.payroll">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.receipt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.repair_workshop_icon_png_2897">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.report__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.report__1__copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.risk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.stock_exchange_app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.technician">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.Untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Car_Accessory_Management_Systm.My.Resources.Resources.Untitled_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
